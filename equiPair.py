@@ -1,10 +1,12 @@
 #Equi-pair
 N=raw_input()
+#Converts the string to list
 r=list(N.split(' '))
 r=map(int,r)
 t=len(r)
 i=1
 k=0
+
 if t>4:
     while i<t:
         j=i+2
